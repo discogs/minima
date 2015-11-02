@@ -6,8 +6,9 @@ HTTP dispatcher and session management. In my view, the first two are relics of 
 we can (and should) do without them, and the third should be greatly improved. Luckily, modern
 minimalist frameworks like ``flask`` get us closer to that, but there's still way to go.
 
---> [Installation](#Install)
---> [Basic Useage](#Useage)
+--> [Installation](#install)
+
+--> [Basic Useage](#useage)
 
 The Vision: Snakes all the Way Down!
 ------------------------------------
@@ -41,7 +42,7 @@ given that these technologies are here to stay.
 #### Hypertext
 Write 'HTML Functions' using a simple **DSL** within Python.
 
-```python
+```
 >>> import minima.hypertext as H
 
 >>> print H.h1("Welcome", class_="highlight", id="foo")
