@@ -6,9 +6,11 @@ HTTP dispatcher and session management. In my view, the first two are relics of 
 we can (and should) do without them, and the third should be greatly improved. Luckily, modern
 minimalist frameworks like ``flask`` get us closer to that, but there's still way to go.
 
---> [Installation](#install)
+* [The Vision](#the-vision-snakes-all-the-way-down)
 
---> [Basic Useage](#useage)
+* [Installation](#install)
+
+* [Basic Useage](#useage)
 
 The Vision: Snakes all the Way Down!
 ------------------------------------
@@ -36,11 +38,13 @@ over the years (HTTP, HTML, JavaScript/CoffeeScript, CSS/Sass, JSON, AJAX, SQL, 
 given that these technologies are here to stay.
 
 ### Install
-`pip install minima`
+```
+$ pip install minima
+```
 
 ### Useage
 #### Hypertext
-Write 'HTML Functions' using a simple **DSL** within Python.
+Write 'HTML Functions' using a simple **DSL** within Python. Add elements and classes using dot notation. Create nested elements using `with`.
 
 ```
 >>> import minima.hypertext as H
